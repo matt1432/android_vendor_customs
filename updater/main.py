@@ -39,11 +39,11 @@ def update_if_needed(module: str, release: ApkRelease):
 fdroid_main_repo = 'https://www.f-droid.org/repo'
 fdroid_microg_repo = 'https://microg.org/fdroid/repo'
 fdroid_izzy_repo = 'https://apt.izzysoft.de/fdroid/repo'
-fdroid_divest_repo = 'http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion/fdroid/official'
+#fdroid_divest_repo = 'http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion/fdroid/official'
 
 update_if_needed('AuroraStore', fdroid_recommended_release(fdroid_main_repo, 'com.aurora.store'))
 update_if_needed('AvesLibre', fdroid_recommended_release(fdroid_main_repo, 'deckers.thibault.aves.libre'))
 update_if_needed('Droidify', fdroid_recommended_release(fdroid_main_repo, 'com.looker.droidify'))
 update_if_needed('MJPdfReader', fdroid_recommended_release(fdroid_izzy_repo, 'com.gitlab.mudlej.MjPdfReader'))
-update_if_needed('Mull', fdroid_recommended_release(fdroid_divest_repo, 'us.spotco.fennec_dos'))
+update_if_needed('Mull', fdroid_recommended_release(fdroid_main_repo, 'us.spotco.fennec_dos'))
 update_if_needed('OpenCalc', fdroid_recommended_release(fdroid_main_repo, 'com.darkempire78.opencalculator'))
