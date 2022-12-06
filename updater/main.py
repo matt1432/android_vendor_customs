@@ -39,7 +39,7 @@ def update_if_needed(module: str, release: ApkRelease):
 fdroid_main_repo = 'https://www.f-droid.org/repo'
 fdroid_microg_repo = 'https://microg.org/fdroid/repo'
 fdroid_izzy_repo = 'https://apt.izzysoft.de/fdroid/repo'
-fdroid_divestos = 'https://divestos.org/fdroid/official'
+fdroid_divestos_repo = 'https://divestos.org/fdroid/official'
 
 update_if_needed('AuroraStore', fdroid_recommended_release(fdroid_main_repo, 'com.aurora.store'))
 update_if_needed('AvesLibre', fdroid_recommended_release(fdroid_main_repo, 'deckers.thibault.aves.libre'))
