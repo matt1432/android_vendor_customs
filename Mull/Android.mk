@@ -13,4 +13,8 @@ LOCAL_PRODUCT_MODULE := true
 
 LOCAL_OVERRIDES_PACKAGES := \
     Jelly
+
+LOCAL_OPTIONAL_USES_LIBRARIES := \
+    androidx.window.extensions \
+    androidx.window.sidecar
 include $(BUILD_PREBUILT)
