@@ -15,6 +15,5 @@ LOCAL_OVERRIDES_PACKAGES := \
 
 LOCAL_OPTIONAL_USES_LIBRARIES := \
     androidx.window.extensions \
-    androidx.window.sidecar \
-    org.apache.http.legacy
+    androidx.window.sidecar
 include $(BUILD_PREBUILT)
