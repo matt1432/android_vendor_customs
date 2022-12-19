@@ -42,7 +42,7 @@ fdroid_izzy_repo = 'https://apt.izzysoft.de/fdroid/repo'
 fdroid_divestos_repo = 'https://divestos.org/fdroid/official'
 
 update_if_needed('AuroraStore', fdroid_recommended_release(fdroid_main_repo, 'com.aurora.store'))
-update_if_needed('AvesLibre', fdroid_recommended_release(fdroid_main_repo, 'deckers.thibault.aves.libre'))
+#update_if_needed('AvesLibre', fdroid_recommended_release(fdroid_main_repo, 'deckers.thibault.aves.libre'))
 update_if_needed('Droidify', fdroid_recommended_release(fdroid_main_repo, 'com.looker.droidify'))
 update_if_needed('MJPdfReader', fdroid_recommended_release(fdroid_izzy_repo, 'com.gitlab.mudlej.MjPdfReader'))
 update_if_needed('Mull', fdroid_recommended_release(fdroid_divestos_repo, 'us.spotco.fennec_dos'))
